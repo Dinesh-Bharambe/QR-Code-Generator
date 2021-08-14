@@ -26,7 +26,7 @@ e = StringVar()
 e1 = Entry(window, textvariable = e,font = ("Ariel",12)).grid(row=1, column=1)
 
 b1 = Button(window, text="Generate QR Code", command=generate).grid(row = 2,column = 0)
-b1 = Button(window, text="Display", command=display).grid(row = 2,column = 1)
+b2 = Button(window, text="Display", command=display).grid(row = 2,column = 1)
 
 l2= Label(window)
 l2.grid(row= 3, column=1)
